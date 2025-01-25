@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section className="home">
       <div className="home-content">
-        <header className="home-header">
+        <header className="home-header" style={{ paddingRight: '20px' }}>
           <Banner />
           <HeaderBox 
             type="greeting"
@@ -21,7 +21,7 @@ const Home = () => {
         </header>
       </div>
     </section>
-  )
+  )  
 }
 
 export default Home
